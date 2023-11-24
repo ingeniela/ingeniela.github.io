@@ -11559,7 +11559,7 @@ html {
   background: linear-gradient(135deg, #D2D2D2 0%, #444444 100%);
 }
 
-.bg-gradient-primary-to-secondary-blue {
+.bg-gradient-primary-to-secondary {
   background: #1e30f3;
   background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
 }

@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Ingeniela</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="src/assets/favicon.ico" />
         <!-- Custom Google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +15,7 @@
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="src/css/styles.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
@@ -43,20 +43,20 @@
                             <div class="text-center text-xxl-start">
                                 <h1 class="display-3 fw-bolder"><span class="text-gradient d-inline">Ingeniela</span></h1>
                                 <div class="fs-3 fw-light text-muted mb-2">Daniela Barazarte</div>
-                                <!--<div class="badge bg-gradient-primary-to-secondary-blue text-white mb-5"><div class="text-uppercase">Programación &middot; Ingeniería &middot; Desarrollo personal</div></div>-->
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                                <!--<div class="badge bg-gradient-primary-to-secondary text-white mb-5"><div class="text-uppercase">Programación &middot; Ingeniería &middot; Desarrollo personal</div></div>-->
+                                <!--<div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                                     <a class="btn btn-primary btn-lg me-sm-3 fs-6 fw-bolder" href="resume.html">Curriculum</a>
                                     <a class="btn btn-outline-dark btn-lg fs-6 fw-bolder" href="projects.html">Proyectos</a>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                         <div class="col-xxl-7">
                             <!-- Header profile picture-->
                             <div class="d-flex justify-content-center mt-5 mt-xxl-0">
-                                <div class="profile bg-gradient-primary-to-secondary-blue">
+                                <div class="profile bg-gradient-primary-to-secondary">
                                     <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
                                     <!-- Watch a tutorial on how to do this on YouTube (link)-->
-                                    <img class="profile-img" src="assets/profileDani.png" alt="..." />
+                                    <img class="profile-img" src="src/assets/profileDani.png" alt="..." />
                                     <div class="dots-1">
                                         <!-- SVG Dots-->
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
@@ -186,6 +186,7 @@
                                 <p class="text-muted">Soy una desarrolladora de software con experiencia en el diseño, desarrollo y mantenimiento de sistemas y aplicaciones de software complejos. Me apasiona empoderar a las comunidades a través de la tecnología. Siempre estoy buscando oportunidades para desarrollar soluciones innovadoras y seguir sirviendo como ingeniera de software para ayudar a organizaciones y personas a alcanzar sus objetivos.</p>
                                 <div class="d-flex justify-content-center fs-2 gap-4">
                                     <a class="text-gradient" href="https://instagram.com/laingeniela"><i class="bi bi-instagram"></i></a>
+                                    <a class="text-gradient" href="https://youtube.com/@ingeniela"><i class="bi bi-youtube"></i></a>
                                     <a class="text-gradient" href="https://twitter.com/laingeniela"><i class="bi bi-twitter"></i></a>
                                     <a class="text-gradient" href="https://www.linkedin.com/in/danielabarazarteg/"><i class="bi bi-linkedin"></i></a>
                                     <a class="text-gradient" href="https://github.com/ingeniela"><i class="bi bi-github"></i></a>
@@ -195,11 +196,56 @@
                     </div>
                 </div>
             </section>
+            <!-- Projects Section-->
+            <section class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Proyectos</span></h1>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Project Card 1-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Project Name 1</h2>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                        </div>
+                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 2-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Project Name 2</h2>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                        </div>
+                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Call to action section-->
+            <section class="py-5 bg-gradient-primary-to-secondary text-white">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        <h2 class="display-4 fw-bolder mb-4">¡Hagamos algo!</h2>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="#contact-me">Contactame</a>
+                    </div>
+                </div>
+            </section>
             <!-- Contact form-->
-            <div class="bg-light rounded-4 py-5 px-4 px-md-5">
+            <div class="rounded-4 py-5 px-4 px-md-5">
                 <div class="text-center mb-5">
-                    <div class="feature bg-primary bg-gradient-primary-to-secondary-blue text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                    <h1 class="fw-bolder">Contactame</h1>
+                    <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                    <a name="contact-me"></a><h1 class="fw-bolder">Contactame</h1>
                     <p class="lead fw-normal text-muted mb-0">¡Trabajemos juntos!</p>
                 </div>
                 <div class="row gx-5 justify-content-center">
@@ -270,6 +316,6 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="src/assets/js/scripts.js"></script>
     </body>
 </html>
