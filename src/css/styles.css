@@ -1793,6 +1793,13 @@ progress {
   background-position: center;
 }
 
+.div-photo1 {
+  background-color: #6600fd;
+  background-image: url(../assets/images/studying.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
 .caption-top {
   caption-side: top;
 }
