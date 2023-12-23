@@ -41,7 +41,7 @@
   --bs-secondary: #e21e80;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
+  --bs-warning: #ffda69;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
@@ -220,6 +220,10 @@ blockquote {
 b,
 strong {
   font-weight: bolder;
+}
+
+mega-small, .mega-small {
+  font-size: 0.575em;
 }
 
 small, .small {
@@ -609,7 +613,8 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 300px;
+  width: 300px;
 }
 
 .img-thumbnail {
@@ -1782,12 +1787,10 @@ progress {
 }
 
 .div-photo {
-  background-color: blue;
+  background-color: #6600fd;
   background-image: url(../assets/images/ingeniela-MainBanner.jpg);
   background-size: 100%;
   background-position: center;
-  background-repeat: no-repeat;
-
 }
 
 .caption-top {
@@ -11579,12 +11582,12 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: #9a59fb;
+  background: linear-gradient(135deg, #9a59fb 0%, #6600fd 100%);
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: -webkit-linear-gradient(315deg, #9a59fb 0%, #6600fd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11619,42 +11622,6 @@ html {
   left: 50%;
   transform: translateX(-50%);
 }
-.profile .dots-1 {
-  position: absolute;
-  width: 3vw;
-  right: 1.5vw;
-  top: 4vw;
-}
-.profile .dots-1 svg {
-  fill: #fff;
-}
-.profile .dots-2 {
-  position: absolute;
-  width: 3vw;
-  right: -4vw;
-  top: 6.05vw;
-}
-.profile .dots-2 svg {
-  fill: #1e30f3;
-}
-.profile .dots-3 {
-  position: absolute;
-  width: 3vw;
-  left: 1.5vw;
-  bottom: 6.05vw;
-}
-.profile .dots-3 svg {
-  fill: #fff;
-}
-.profile .dots-4 {
-  position: absolute;
-  width: 3vw;
-  left: -4vw;
-  bottom: 4vw;
-}
-.profile .dots-4 svg {
-  fill: #1e30f3;
-}
 
 @media (min-width: 576px) {
   .profile {
@@ -11663,22 +11630,6 @@ html {
   }
   .profile .profile-img {
     height: 65vw;
-  }
-  .profile .dots-1 {
-    width: 3vw;
-    right: 1.5vw;
-  }
-  .profile .dots-2 {
-    width: 3vw;
-    right: -4vw;
-  }
-  .profile .dots-3 {
-    width: 3vw;
-    left: 1.5vw;
-  }
-  .profile .dots-4 {
-    width: 3vw;
-    left: -4vw;
   }
 }
 @media (min-width: 768px) {
@@ -11689,22 +11640,6 @@ html {
   .profile .profile-img {
     height: 55vw;
   }
-  .profile .dots-1 {
-    width: 3vw;
-    right: 1.5vw;
-  }
-  .profile .dots-2 {
-    width: 3vw;
-    right: -4vw;
-  }
-  .profile .dots-3 {
-    width: 3vw;
-    left: 1.5vw;
-  }
-  .profile .dots-4 {
-    width: 3vw;
-    left: -4vw;
-  }
 }
 @media (min-width: 992px) {
   .profile {
@@ -11714,22 +11649,6 @@ html {
   .profile .profile-img {
     height: 45vw;
   }
-  .profile .dots-1 {
-    width: 1.5vw;
-    right: 0.75vw;
-  }
-  .profile .dots-2 {
-    width: 1.5vw;
-    right: -2vw;
-  }
-  .profile .dots-3 {
-    width: 1.5vw;
-    left: 0.75vw;
-  }
-  .profile .dots-4 {
-    width: 1.5vw;
-    left: -2vw;
-  }
 }
 @media (min-width: 1200px) {
   .profile {
@@ -11738,21 +11657,5 @@ html {
   }
   .profile .profile-img {
     height: 40vw;
-  }
-  .profile .dots-1 {
-    width: 1.5vw;
-    right: 0.75vw;
-  }
-  .profile .dots-2 {
-    width: 1.5vw;
-    right: -2vw;
-  }
-  .profile .dots-3 {
-    width: 1.5vw;
-    left: 0.75vw;
-  }
-  .profile .dots-4 {
-    width: 1.5vw;
-    left: -2vw;
   }
 }
